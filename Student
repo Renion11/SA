@@ -1,0 +1,18 @@
+public class Student
+{
+    String ime;
+    String fakNomer;
+    double grade;
+
+    public Student(String ime, String fakNomer, double grade){
+        this.ime = ime;
+        this.fakNomer = fakNomer;
+        this.grade = grade;
+    }
+
+    public void printInfo(){
+        System.out.println("Name: " + ime);
+        System.out.println("Fak.Nomer: " + fakNomer);
+        System.out.println("Ocenka: " + grade);
+    }
+}
